@@ -13,6 +13,24 @@
           class="p-8 bg-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
           data-aos="fade-up"
         >
+          <div class="text-5xl text-primary mb-6">🔍</div>
+          <h3 class="text-2xl font-bold text-secondary mb-4">QA</h3>
+          <ul class="text-secondary">
+            <li>Manual & Exploratory Testing</li>
+            <li>Test Case & Test Plan Creation</li>
+            <li>Bug Tracking (Jira)</li>
+            <li>Regression & Smoke Testing</li>
+            <li>API Testing (Postman)</li>
+            <li>Cross-Browser & Cross-Platform Testing</li>
+            <li>Game Mechanics & Gameplay Testing</li>
+            <li>Agile/Scrum Workflow</li>
+          </ul>
+        </div>
+        <!-- Frontend Skills -->
+        <div
+          class="p-8 bg-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
+          data-aos="fade-up"
+        >
           <div class="text-5xl text-primary mb-6">💻</div>
           <h3 class="text-2xl font-bold text-secondary mb-4">Frontend</h3>
           <ul class="text-secondary">
@@ -30,9 +48,7 @@
           data-aos-delay="200"
         >
           <div class="text-5xl text-primary mb-6">🛠️</div>
-          <h3 class="text-2xl font-bold text-secondary mb-4">
-            Tools & Platforms
-          </h3>
+          <h3 class="text-2xl font-bold text-secondary mb-4">Tools & Platforms</h3>
           <ul class="text-secondary">
             <li>Git & GitHub</li>
             <li>VS Code</li>
@@ -66,6 +82,6 @@
 
 <script>
 export default {
-  name: "SkillsSection",
-};
+  name: 'SkillsSection',
+}
 </script>

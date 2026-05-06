@@ -20,14 +20,10 @@
         </h2>
         <p class="text-lg md:text-xl leading-relaxed mb-8">
           Hey there! I’m Shuruq, a web developer and QA game tester who’s part coder, part
-          problem-solver, and full-time coffee enthusiast. I turn "I have no idea what I’m doing"
-          into "Hey, it actually works!" on a daily basis. When I’m not wrestling with CSS (why does
-          it hate me?), debugging code that worked perfectly yesterday, or hunting down sneaky bugs
-          in games before players ever see them, I’m probably exploring new tech or laughing at my
-          own coding jokes (they’re hilarious, I promise). I believe in making both the web and
-          gaming experiences smoother and cooler—one pixel, one semicolon, and one bug fix at a
-          time. Let’s create something amazing together and maybe share a virtual high-five when it
-          works!
+          problem-solver, and full-time coffee enthusiast. I turn “I have no idea what I’m doing”
+          into “Hey, it actually works!” on a daily basis. When I’m not fixing bugs in code or
+          games, I’m exploring new tech or laughing at my own coding jokes. Let’s build something
+          awesome—and celebrate when it finally works!
         </p>
         <a
           href="#contact-form"
