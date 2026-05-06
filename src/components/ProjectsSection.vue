@@ -31,25 +31,13 @@
             class="mySwiper mb-6"
           >
             <swiper-slide>
-              <img
-                src="@/assets/project1/1.png"
-                alt="Taibah Map Image 1"
-                class="w-full rounded-lg"
-              />
+              <img :src="images.project1[0]" alt="Taibah Map Image 1" class="w-full rounded-lg" />
             </swiper-slide>
             <swiper-slide>
-              <img
-                src="@/assets/project1/2.png"
-                alt="Taibah Map Image 2"
-                class="w-full rounded-lg"
-              />
+              <img :src="images.project1[1]" alt="Taibah Map Image 2" class="w-full rounded-lg" />
             </swiper-slide>
             <swiper-slide>
-              <img
-                src="@/assets/project1/3.png"
-                alt="Taibah Map Image 3"
-                class="w-full rounded-lg"
-              />
+              <img :src="images.project1[2]" alt="Taibah Map Image 3" class="w-full rounded-lg" />
             </swiper-slide>
           </swiper>
 
@@ -94,21 +82,21 @@
           >
             <swiper-slide>
               <img
-                src="@/assets/project2/1.png"
+                :src="images.project2[0]"
                 alt="Booking Management Image 1"
                 class="w-full rounded-lg"
               />
             </swiper-slide>
             <swiper-slide>
               <img
-                src="@/assets/project2/2.png"
+                :src="images.project2[1]"
                 alt="Booking Management Image 2"
                 class="w-full rounded-lg"
               />
             </swiper-slide>
             <swiper-slide>
               <img
-                src="@/assets/project2/3.png"
+                :src="images.project2[2]"
                 alt="Booking Management Image 3"
                 class="w-full rounded-lg"
               />
@@ -155,21 +143,21 @@
           >
             <swiper-slide>
               <img
-                src="@/assets/project3/1.png"
+                :src="images.project3[0]"
                 alt="Cleaning Service Image 1"
                 class="w-full rounded-lg"
               />
             </swiper-slide>
             <swiper-slide>
               <img
-                src="@/assets/project3/2.png"
+                :src="images.project3[1]"
                 alt="Cleaning Service Image 2"
                 class="w-full rounded-lg"
               />
             </swiper-slide>
             <swiper-slide>
               <img
-                src="@/assets/project3/3.png"
+                :src="images.project3[2]"
                 alt="Cleaning Service Image 3"
                 class="w-full rounded-lg"
               />
@@ -200,8 +188,19 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Navigation, Pagination } from 'swiper/modules' // Import Swiper modules
-import 'swiper/swiper-bundle.css' // Import Swiper styles
+import { Navigation, Pagination } from 'swiper/modules'
+import 'swiper/swiper-bundle.css'
+
+// Import images statically
+import img1 from '@/assets/project1/1.png'
+import img2 from '@/assets/project1/2.png'
+import img3 from '@/assets/project1/3.png'
+import img4 from '@/assets/project2/1.png'
+import img5 from '@/assets/project2/2.png'
+import img6 from '@/assets/project2/3.png'
+import img7 from '@/assets/project3/1.png'
+import img8 from '@/assets/project3/2.png'
+import img9 from '@/assets/project3/3.png'
 
 export default {
   name: 'ProjectsSection',
@@ -211,7 +210,12 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation, Pagination], // Add Swiper modules
+      modules: [Navigation, Pagination],
+      images: {
+        project1: [img1, img2, img3],
+        project2: [img4, img5, img6],
+        project3: [img7, img8, img9],
+      },
     }
   },
 }
